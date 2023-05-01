@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>zomato.com</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <nav id="navbar">
+    <div class="my-button" id="my-button" onclick="myFunction()">
+      <a href="#"  id="menu-icon" onclick="myFunction()">
+        <i class="fas fa-bars"></i>
+      </a>
+    </div>
+    <div class="logo" id="mynav">
+      <h1 class="app">Get the App</h1>
+    </div>
+    <ul id="mynav">
+      <li class="Item"><a href="#">Investor Relations</a></li>
+      <li class="Item"><a href="#">Add restaurant</a></li>
+      <li class="Item"><a href="#">Log in</a></li>
+      <li class="Item"><a href="#">Sign up</a></li>
+    </ul>
+  </nav>
+  <div class="zomato-application">
+    <section id="icons">
+      <h1 class="logo_icon">zomato</h1>
+      <p id="Para">Discover the best food & drinks in Mumbai</p>
+      <div id="search" class="addSearch">
+        <img src="location.png" alt="" />
+        <input type="text" placeholder="Mumbai" />
+        <i class='bx bxs-down-arrow'></i>
+        <div class="line">|</div>
+        <i class='bx bx-search'></i>
+        <input type="text" placeholder="Search for restaurant,cuisine or a dish">
+      </div>
+    </section>
+    <section class="services-items">
+      <div id="services">
+        <div class="box">
+          <img src="bg1.png" alt="" />
+          <h3 class="client">Order Online</h3>
+          <p class="client">Stay home and order to your online food delivery.</p>
+        </div>
+        <div class="box">
+          <img src="bg2.png" alt="" />
+          <h3 class="client">Dining</h3>
+          <p class="client">View the city's favourite dining table room all things.</p>
+        </div>
+        <div class="box">
+          <img src="bg3.png" alt="" />
+          <h3 class="client">Nightlife and Clubs</h3>
+          <p class="client">Explore the city's top nightlife and Club.</p>
+        </div>
+      </div>
+    </section>
+    <section class="services-collection">
+      <div id="collection">
+        <div class="list">
+          <h1 class="pubList">Collections</h1>
+          <p class="pubPara">
+            Explore curated lists of top restaurants,cafes,pubs,and bars in
+            Mumbai, based on trends
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="resort">
+      <div id="home">
+        <div class="box">
+          <img src="pub1.png" alt="" />
+        </div>
+        <div class="box">
+          <img src="pub2.png" alt="" />
+        </div>
+        <div class="box">
+          <img src="pub3.png" alt="" />
+        </div>
+        <div class="box">
+          <img src="pub4.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <div id="Para">
+      <p>Popular localities in and around <b>Mumbai</b></p>
+    </div>
+    <div id="Place">
+      <div class="city">
+        <a href="https://www.zomato.com/mumbai/lower-parel-restaurants">
+          <p>Lower Parel</p>
+          <div class="all-place">
+            <p>399 places</p>
+          </div>
+        </a>
+        <i class="fas fa-angle-down"></i>
+      </div>
+      <div class="city">
+        <a href="https://www.zomato.com/mumbai/powai-restaurants">
+          <p>Powai</p>
+          <div class="all-place">
+            <p>364 places</p>
+          </div>
+        </a>
+        <i class="fas fa-angle-down"></i>
+      </div>
+      <div class="city">
+        <a href="https://www.zomato.com/mumbai/malad-west-restaurants">
+          <p>Malad West</p>
+          <div class="all-place">
+            <p>799 places</p>
+          </div>
+        </a>
+        <i class="fas fa-angle-down"></i>
+      </div>
+      <div class="city">
+        <a href="https://www.zomato.com/mumbai/borivali-west-restaurants">
+          <p>Borivali West</p>
+          <div class="all-place">
+            <p>569 places</p>
+          </div>
+        </a>
+        <i class="fas fa-angle-down"></i>
+      </div>
+      <div class="city">
+        <a href="https://www.zomato.com/mumbai/bandra-kurla-restaurants">
+          <p>Bandra Kurla</p>
+          <div class="all-place">
+            <p>106 places</p>
+          </div>
+        </a>
+        <i class="fas fa-angle-down"></i>
+      </div>
+      <div class="city">
+        <a href="https://www.zomato.com/mumbai/vashi-restaurants">
+          <p>Vashi</p>
+          <div class="all-place">
+            <p>557 places</p>
+          </div>
+        </a>
+        <i class="fas fa-angle-down"></i>
+      </div>
+      <div class="city">
+        <a href="https://www.zomato.com/mumbai/fort-restaurants">
+          <p>Fort</p>
+          <div class="all-place">
+            <p>233 places</p>
+          </div>
+        </a>
+        <i class="fas fa-angle-down"></i>
+      </div>
+      <div class="city">
+        <a href="https://www.zomato.com/mumbai/juhu-restaurants">
+          <p>Juhu</p>
+          <div class="all-place">
+            <p>208 places</p>
+          </div>
+        </a>
+        <i class="fas fa-angle-down"></i>
+      </div>
+      <div class="city">
+        <p>see more</p>
+        <div id="key">
+          <i class="fas fa-angle-down"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="applyLink">
+    <div class="Link">
+      <div id="download">
+        <div class="appImg">
+          <img src="foodApp.png" alt="" />
+          <div class="getApp">
+            <h1 class="appSection">Get the Zomato app</h1>
+            <p class="appSection">
+              We will send you a link, open it on your phone <br />to download
+              the app
+            </p>
+            <div class="form-input">
+              <div class="form-check-email">
+                <input class="radio1" type="radio" onclick="showEmail()" name="check" id="app1" checked />
+                <label class="check-label" for="email">Email</label>
+                <div class="email-text">
+                  <input type="text" placeholder="Enter email">
+                  <button class="btn">Share</button>
+                </div>
+              </div>
+              <div class="form-check-phone">
+                <input class="radio2" type="radio" onclick="showPhone()" name="check" id="app2" checked />
+                <label class="check-label" for="Phone">Phone</label>
+                <div class="phone-text">
+                  <input type="text" placeholder="Enter mobile number">
+                  <button class="btn">Share</button>
+                </div>
+              </div>
+              <div class="play-store">
+                <p>Download app from</p>
+                <div class="play-store-link">
+                  <!-- <a href="https://www.zomato.com/"><img src="Gplay.png" alt="img"></a> -->
+                  <!-- <a href="https://www.zomato.com/"><img src="playStore.png" alt=""></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <div class="container">
+    <h1 class="heading">Explore options near me</h1>
+    <div class="accordion-wrapper">
+      <div class="accordion">
+        <div class="accordion-heading">
+          <h4>Popular cuisines near me</h4>
+          <i class="fas fa-angle-down"></i>
+        </div>
+          <p class="accordion-content">
+            Lorem ipsum dolor sit amet, consectetur <br>
+            adipisicing elit. Ea ratione nulla laboriosam <br>
+            a nam nobis similique, mollitia quo amet <br>
+            fuga nisi velit ipsum! Tempora magni a <br>
+            temporibus ut, deleniti sapiente.
+          </p>
+      </div>
+    </div>
+    <div class="accordion-wrapper">
+      <div class="accordion">
+        <div class="accordion-heading">
+          <h4>Popular restaurant types near me</h4>
+          <i class="fas fa-angle-down"></i>
+        </div>
+        <p class="accordion-content">
+          Lorem ipsum dolor sit amet, consectetur <br>
+          adipisicing elit. Ea ratione nulla laboriosam <br>
+          a nam nobis similique, mollitia quo amet <br>
+          fuga nisi velit ipsum! Tempora magni a <br>
+          temporibus ut, deleniti sapiente.
+        </p>
+      </div>
+    </div>
+    <div class="accordion-wrapper">
+      <div class="accordion">
+        <div class="accordion-heading">
+          <h4>Top Restaurant Chains</h4>
+          <i class="fas fa-angle-down"></i>
+        </div>
+        <p class="accordion-content">
+          Lorem ipsum dolor sit amet, consectetur <br>
+          adipisicing elit. Ea ratione nulla laboriosam <br>
+          a nam nobis similique, mollitia quo amet <br>
+          fuga nisi velit ipsum! Tempora magni a <br>
+          temporibus ut, deleniti sapiente.
+        </p>
+      </div>
+    </div>
+    <div class="accordion-wrapper">
+      <div class="accordion">
+        <div class="accordion-heading">
+          <h4>Cities We Deliver To</h4>
+          <i class="fas fa-angle-down"></i>
+        </div>
+        <p class="accordion-content">
+          Lorem ipsum dolor sit amet, consectetur <br>
+          adipisicing elit. Ea ratione nulla laboriosam <br>
+          a nam nobis similique, mollitia quo amet <br>
+          fuga nisi velit ipsum! Tempora magni a <br>
+          temporibus ut, deleniti sapiente.
+        </p>
+      </div>
+    </div>
+  </div>
+  <footer class="last-page">
+    <div class="page">
+      <section class="zomato-xyz">
+        <div class="app-img">
+          <img src="z.png"
+            alt="" width="150px">
+        </div>
+        <section>
+
+        </section>
+      </section>
+      <div class="all-page">
+        <div class="about-page">
+          <h6 class="abc">ABOUT ZOMATO</h6>
+          <nav>
+            <a href="https://www.zomato.com/who-we-are" class="">
+              <p class="">Who We Are</p>
+            </a>
+            <a href="https://blog.zomato.com/" class="">
+              <p class="">Blog</p>
+            </a>
+            <a href="https://www.zomato.com/careers" class="">
+              <p class="">Work With Us</p>
+            </a>
+            <a href="https://www.zomato.com/investor-relations" class="">
+              <p class="">Investor Relations</p>
+            </a>
+            <a href="https://www.zomato.com/report-fraud" class="">
+              <p class="">Report Fraud</p>
+            </a>
+            <a href="https://www.zomato.com/contact" class="">
+              <p class="">Contact Us</p>
+            </a>
+          </nav>
+        </div>
+        <div class="about-page">
+          <h6 class="abc">ZOMAVERSE</h6>
+          <nav>
+            <a href="https://www.zomato.com/" class="">
+              <p class="">Zomato</p>
+            </a>
+            <a href="https://www.blinkit.com/" class="">
+              <p class="">Blinkit</p>
+            </a>
+            <a href="https://www.feedingindia.org/" class="">
+              <p class="">Feeding India</p>
+            </a>
+            <a href="https://www.hyperpure.com/" class="">
+              <p class="">Hyperpure</p>
+            </a>
+            <a href="https://www.zomato.com/zomaland" class="">
+              <p class="">Zomaland</p>
+            </a>
+          </nav>
+        </div>
+        <div class="about-page">
+          <div class="zomato-app">
+            <h6 class="abc">FOR RESTAURANTS</h6>
+            <nav>
+              <a href="https://www.zomato.com/partner_with_us" class="">
+                <p class="">Partner With Us</p>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.application.services.partner&amp;hl=en_IN&amp;gl=US"
+                class="">
+                <p class="">Apps For You</p>
+              </a>
+            </nav>
+          </div>
+          <div class="meal-work">
+            <h6 class="abc">FOR ENTERPRISES</h6>
+            <nav>
+              <a href="https://www.zomato.com/enterprise-solutions" class="">
+                <p class="">Zomato For Work</p>
+              </a>
+            </nav>
+          </div>
+        </div>
+        <div class="about-page">
+          <h6 class="abc">LEARN MORE</h6>
+          <nav>
+            <a href="https://www.zomato.com/privacy" class="">
+              <p class="">Privacy</p>
+            </a>
+            <a href="https://www.zomato.com/security" class="">
+              <p class="">Security</p>
+            </a>
+            <a href="https://www.zomato.com/conditions" class="">
+              <p class="">Terms</p>
+            </a>
+            <a href="https://www.zomato.com/directory" class="">
+              <p class="">Sitemap</p>
+            </a>
+          </nav>
+        </div>
+        <div class="about-page">
+          <h6 class="abc">SOCIAL LINKS</h6>
+          <nav class="active-links">
+            <img src="in.png" alt="" width="26px">
+            <img src="insta.png" alt="" width="36px">
+            <img src="tw.png" alt="" width="25px">
+            <img src="y.png" alt="" width="28px">
+            <img src="f.png" alt="" width="33px">
+          </nav>
+          <div class="download-links">
+            <div class="your-app">
+              <img src="Gplay.png" alt="">
+            </div>
+            <div class="your-app">
+              <img src="playStore.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="our-terms">
+      <hr>
+      <div class="copyRight">
+        <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content
+          Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights
+          reserved.</p>
+      </div>
+    </div>
+  </footer>
+  </div>
+  <script src="https://kit.fontawesome.com/691125f9fe.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
